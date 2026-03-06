@@ -1,0 +1,19 @@
+STDOUT:
+
+> frontend@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+[eslint] 
+src\pages\StaffManagement.js
+  Line 69:26:  'Users' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+
+
+STDERR:
+(node:29240) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)

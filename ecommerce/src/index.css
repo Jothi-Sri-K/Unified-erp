@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+  /* Bootstrap light bg */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom Utility Classes extending Bootstrap */
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.bg-opacity-10 {
+  --bg-opacity: 0.1;
+}
+
+.bg-opacity-25 {
+  --bg-opacity: 0.25;
+}
+
+.border-opacity-25 {
+  --border-opacity: 0.25;
+}
+
+/* Ensure lucide icons inherit color correctly */
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
